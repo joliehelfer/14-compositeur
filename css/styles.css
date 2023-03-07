@@ -27,6 +27,10 @@ a{
   color: white;
 }
 
+a:visited {
+  color: white;
+  }
+
 p{
   color: #DA1D1F;
   margin: 20px 10px ;
@@ -38,10 +42,6 @@ margin: 15px;
 h3{
   color: #DA1D1F;
   text-align: center;
-}
-
-a:visited {
-color: white;
 }
 
 .titre {
@@ -70,16 +70,14 @@ color: white;
 }
 
 .navigation {
-  padding: 30px;
+  padding: 40px;
   color: white;
-  border-radius: 2px;
-  padding: 5px 5px;
-  margin-bottom: 5px;
-  font-size: 10px;
+  padding: 0px;
+  font-size: 9px;
 }
 
 .akira-film{
-  background: black;
+  background: #050608;
 }
 
 footer {
