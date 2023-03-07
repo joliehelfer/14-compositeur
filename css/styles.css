@@ -23,3 +23,23 @@ img {
   margin: auto;
 }
 
+a{
+  color: white;
+}
+
+p{
+  color: #DA1D1F;
+  margin: 20px 10px ;
+}
+h2{
+margin: 15px;
+}
+
+h3{
+  color: #DA1D1F;
+  text-align: center;
+}
+
+a:visited {
+color: white;
+}
