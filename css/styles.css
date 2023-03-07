@@ -1,10 +1,93 @@
-body {
-  max-width: 320px;
+html {
+  background:  #050608;
+  color: white;
+  scroll-behavior: smooth;
   margin: auto;
-  background: #ddd;
+  background-size: cover;
+}
+
+body {
+  max-width: 375px;
+  margin: auto;
+  background: #282828;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+  margin: auto;
 }
+
+a{
+  color: white;
+}
+
+p{
+  color: #DA1D1F;
+  margin: 20px 10px ;
+}
+h2{
+margin: 15px;
+}
+
+h3{
+  color: #DA1D1F;
+  text-align: center;
+}
+
+a:visited {
+color: white;
+}
+
+.titre {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+ .sous-titres {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 9px;
+  text-align: center;
+ }
+
+ .container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  font-size: 13px;
+}
+
+.navigation {
+  padding: 30px;
+  color: white;
+  border-radius: 2px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.akira-film{
+  background: black;
+}
+
+footer {
+  background: #DA1D1F;
+  padding: 20px 0px 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  font-size: 13px;
+}
+
