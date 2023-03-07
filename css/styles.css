@@ -43,3 +43,41 @@ h3{
 a:visited {
 color: white;
 }
+
+.titre {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+}
+ .sous-titres {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 9px;
+  text-align: center;
+ }
+
+ .container {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  font-size: 13px;
+}
+
+.navigation {
+  padding: 30px;
+  color: white;
+  border-radius: 2px;
+  padding: 5px 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.akira-film{
+  background: black;
+}
