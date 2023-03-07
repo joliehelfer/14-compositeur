@@ -81,3 +81,12 @@ color: white;
 .akira-film{
   background: black;
 }
+
+footer {
+  background: #DA1D1F;
+  padding: 20px 0px 20px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  text-align: center;
+  font-size: 13px;
+}
