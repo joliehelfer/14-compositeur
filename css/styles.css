@@ -23,36 +23,44 @@ img {
   margin: auto;
 }
 
-a{
+h2 {
+  margin: 15px;
+}
+
+a {
   color: white;
+  font-size: 12px;
 }
 
 a:visited {
   color: white;
-  }
+}
 
-p{
+p {
   color: #DA1D1F;
   margin: 20px 10px ;
 }
-h2{
-margin: 15px;
+
+footer h2 {
+margin: 0;
+font-size: 9pt;
 }
 
-h3{
+h3 {
   color: #DA1D1F;
   text-align: center;
 }
 
 .titre {
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
   font-size: 20px;
 }
- .sous-titres {
+
+.sous-titres {
   position: absolute;
   top: 15%;
   left: 50%;
@@ -60,23 +68,25 @@ h3{
   color: white;
   font-size: 9px;
   text-align: center;
- }
+}
 
- .container {
+nav {
   display: flex;
   flex-direction: row;
   margin: auto;
-  font-size: 13px;
+  font-size: 20px;
 }
 
-.navigation {
+nav h2 {
+  width: 25%;
   padding: 40px;
   color: white;
   padding: 0px;
-  font-size: 9px;
+  font-size: 10px;
+  text-align: center;
 }
 
-.akira-film{
+.akira-film {
   background: #050608;
 }
 
@@ -87,4 +97,10 @@ footer {
   border-top-right-radius: 15px;
   text-align: center;
   font-size: 10px;
+}
+
+footer p {
+  font-size: 9pt;
+  margin: 0;
+  color: white;
 }
